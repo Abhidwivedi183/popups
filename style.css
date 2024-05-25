@@ -1,0 +1,43 @@
+body{
+  background: #f7edff;
+}
+.buttons{
+  margin: 50px;
+}
+
+.buttons button{
+background: #333;
+color: #fff;
+border: 0;
+outline: 0;
+width: 120px;
+height: 40px;
+margin:5px;
+cursor: pointer;
+}
+
+.toastbox{
+  position:absolute;
+  bottom:30px;
+  right:30px;
+  display:flex;
+  align-items:flex-end;
+  flex-direction:column;
+
+}
+.tost{
+width:400px;
+height:80px;
+
+font-size:large;
+
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+margin:0 20px;
+text-align:center;
+color:#fff;
+margin-bottom:20px;
+}
+.imgpo{
+  width:40px;
+}
